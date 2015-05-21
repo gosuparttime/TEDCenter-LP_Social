@@ -1,0 +1,36 @@
+/*
+Theme Name: TEDCenter - Boot Camp Landing Pages
+Theme URI: http://tedcenter.syr.edu/social/
+Description: A custom theme for Boot Camp related landing pages for TEDCenter. Based on the bones/Twitter Bootstrap based wordpress theme.
+Version: 1.0
+Author: Devin Kerr
+Author URI: http://www.dkerrcreative.com
+Tags: bones, zurb, twitter-bootstrap, 320press, clean, basic
+*/
+
+/* layout */
+
+/* micro clearfix: http://nicolasgallagher.com/micro-clearfix-hack/ */
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}
+.off-screen {
+height: 1px;
+width: 1px;
+overflow: hidden;
+left: -10000px;
+top: auto;
+position: absolute;
+}

@@ -1,0 +1,16 @@
+/*!
+ * IE Dumb Down
+*/
+i.icon-big-arrow-right {
+  background-image: none;
+}
+.btn-large {
+  line-height: 1.5em;
+  padding-bottom: 0;
+}
+.btn i.icon-big-arrow-right {
+  display: none;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
